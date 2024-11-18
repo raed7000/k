@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Maliha! 💖</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4, #fbc2eb);
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: #fff;
+            animation: fadeIn 4s ease-out;
+        }
+
+        .container {
+            position: relative;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 20px;
+            max-width: 900px;
+            width: 90%;
+            animation: slideUp 2s ease-out;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #ffccff;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+            animation: fadeInText 3s ease-out;
+        }
+
+        .message {
+            font-size: 26px;
+            color: #ffffff;
+            margin-top: 20px;
+            line-height: 1.6;
+            animation: fadeInText 5s ease-out;
+        }
+
+        .heart {
+            font-size: 80px;
+            color: #ff69b4;
+            animation: heartBeat 1s infinite;
+            margin: 20px 0;
+        }
+
+        .gif-container {
+            margin-top: 30px;
+            animation: bounce 2s infinite;
+        }
+
+        .button {
+            margin-top: 40px;
+            padding: 12px 30px;
+            background-color: #ff69b4;
+            border: none;
+            border-radius: 30px;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #ff1493;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes fadeInText {
+            0% { opacity: 0; transform: translateY(-50px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideUp {
+            0% { transform: translateY(100%); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes heartBeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Happy Birthday, Maliha! 🎉</h1>
+        <p class="message">
+            To the love of my life, <br>
+            On this special day, I want to remind you of just how much you mean to me. I could write a million words, but none of them would be enough to fully express the depth of my feelings for you. Since the moment you entered my life, everything has felt brighter, more beautiful, and full of love. 
+            <br><br>
+            You are not only my girlfriend, Maliha, you are my best friend, my confidante, my happiness, and my greatest support. I am so incredibly lucky to have you by my side. I cherish every single moment we spend together, every laugh, every smile, every hug. With you, life feels complete. 
+            <br><br>
+            Your kindness, intelligence, and beauty—both inside and out—constantly amaze me. You have this incredible ability to light up a room and make the world a better place just by being you. I promise to always love, appreciate, and support you, no matter what life brings our way.
+            <br><br>
+            Thank you for being the most amazing person I know. You are my heart, my soul, and everything in between. May your birthday be filled with love, laughter, and all the happiness in the world. I love you more than words can ever express, Maliha. ❤️
+        </p>
+        
+        <div class="heart">❤️</div>
+
+        <div class="gif-container">
+            <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" alt="Cute Cat 1" width="300">
+            <img src="https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif" alt="Cute Cat 2" width="300">
+            <img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" alt="Cute Cat 3" width="300">
+        </div>
+
+        <button class="button" onclick="alert('I love you, Maliha! 💖')">Click for a Surprise! 🎁</button>
+    </div>
+
+</body>
+</html>
